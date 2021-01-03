@@ -30,3 +30,8 @@ Run the application tests
 ```
 docker-compose exec php php artisan test
 ```
+
+URL
+```
+http://localhost:8000
+```
