@@ -1,4 +1,4 @@
-# laravel_with_docker
+# Laravel with Docker
 
 ## Requirement
 - Docker
