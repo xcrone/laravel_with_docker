@@ -4,7 +4,9 @@
 - Docker
 - Docker Compose
 
-## Guide
+<br>
+
+## Start Container
 Build container image
 ```
 docker-compose build
@@ -30,8 +32,22 @@ Run the application tests
 ```
 docker-compose exec php php artisan test
 ```
+<br>
 
-URL
+Search this url in browser:
 ```
 http://localhost:8000
+```
+
+<br>
+
+## Stop Container
+Stop service
+``` 
+docker-compose stop
+```
+
+Kill service
+```
+docker-compose down
 ```
