@@ -18,6 +18,7 @@ docker-compose up -d
 Install package
 ```
 docker-compose exec php composer install
+docker-compose exec php npm install
 ```
 
 Migrate database
